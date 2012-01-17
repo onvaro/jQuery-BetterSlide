@@ -16,6 +16,11 @@ This plugin is based on the work by Remy Sharp and Dan Switzer in identifying an
 building workarounds for this bug. jQuery should fix this in core, but as of jQuery
 1.7.1, it still exists.
 
+To see what they've written on the subject, go to their websites:
+* http://jqueryfordesigners.com/animation-jump-quick-tip/
+* http://jqueryfordesigners.com/slidedown-animation-jump-revisited/
+* http://blog.pengoworks.com/index.cfm/2009/4/21/Fixing-jQuerys-slideDown-effect-ie-Jumpy-Animation
+
 Usage:
 $('element').betterSlide( { options } );
 
