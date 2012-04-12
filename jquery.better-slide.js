@@ -36,6 +36,7 @@
  *              installed, including jQuery UI effects.
  *
  * callback:    ''; Function to perform upon completion of the animation
+ *                  TEMPORARILY DISABLED
  *
  * Alternate Usage (to more closely match native jQuery commands):
  * $('element').betterSlideUp( { options } );
@@ -80,7 +81,7 @@
                 $(this).css( 'height', '' );
 
                 // run any given callback
-                settings.callback();
+                // settings.callback();
             });
         });
     },
@@ -109,7 +110,7 @@
                 $(this).hide().css( 'height', '' );
 
                 // run any given callback
-                settings.callback();
+                // settings.callback();
             });
         });
     },
